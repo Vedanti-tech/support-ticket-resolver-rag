@@ -1,0 +1,818 @@
+[
+  {
+    "query": "How do I sign up for an account?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9960989952087402,
+    "score_gap": 0.01674807071685791,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "I want to shut down my account permanently",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9750648736953735,
+    "score_gap": 0.016841650009155273,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Can I change my email address on file?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.37099453806877136,
+    "score_gap": 0.02837526798248291,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "How do I upgrade to a business plan?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.20462587475776672,
+    "score_gap": 0.0867445319890976,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "I can't remember my password",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9988656044006348,
+    "score_gap": 0.0007061362266540527,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "The registration form keeps giving me an error",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8631771802902222,
+    "score_gap": 0.012531161308288574,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "How do I turn on 2FA for extra security?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8606997728347778,
+    "score_gap": 0.8554463917389512,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Can I merge two accounts into one?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.024942027404904366,
+    "score_gap": 0.008423468098044395,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "I ordered the wrong size, can I cancel it?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.2110733687877655,
+    "score_gap": 0.03577375411987305,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "I need to swap the color of an item I ordered",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9511978626251221,
+    "score_gap": 0.049803078174591064,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "How do I place a new order?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.8897533416748047,
+    "score_gap": 0.0752306580543518,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Where is my order right now?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.877964198589325,
+    "score_gap": 0.03893357515335083,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "Can I add another item to an order I already placed?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8849066495895386,
+    "score_gap": 0.028530240058898926,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "How do I know if my order went through?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.944512128829956,
+    "score_gap": 0.09188157320022583,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can I split one order into two shipments?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.08519160747528076,
+    "score_gap": 0.016006335616111755,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "I moved and need to update where my package goes",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9209665060043335,
+    "score_gap": 0.5737712681293488,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "How do I add a new delivery address to my account?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9999301433563232,
+    "score_gap": 1.8596649169921875e-05,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Can I have my package left with a neighbor?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0001527038257336244,
+    "score_gap": 1.544947735965252e-05,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Where do I find the PDF receipt for my order?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.1324520707130432,
+    "score_gap": 0.11375216767191887,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can you email me a copy of my invoice?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9805005788803101,
+    "score_gap": 0.04654175043106079,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "My invoice shows the wrong billing address",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.2921951711177826,
+    "score_gap": 0.10707235336303711,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "What's your policy on returning items?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8576926589012146,
+    "score_gap": 0.029811859130859375,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "I'd like my money back for a broken item",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.30404290556907654,
+    "score_gap": 0.12245626747608185,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "It's been a week, where's my refund?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.05300417169928551,
+    "score_gap": 0.0062106698751449585,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "Do refunds go back to my original card automatically?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.31075766682624817,
+    "score_gap": 0.30606850143522024,
+    "llm_self_confidence": 0.9
+  },
+  {
+    "query": "Can I get double the refund as compensation?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.29828163981437683,
+    "score_gap": 0.24223658815026283,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "What shipping speeds do you offer?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9415697455406189,
+    "score_gap": 0.05341905355453491,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "How many days until my order arrives?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8801012635231018,
+    "score_gap": 0.03203004598617554,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "Do you deliver outside the US?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.059200555086135864,
+    "score_gap": 0.009252168238162994,
+    "llm_self_confidence": 0.6
+  },
+  {
+    "query": "Can I schedule delivery for a specific hour?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.026278100907802582,
+    "score_gap": 0.011633085086941719,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "My package arrived damaged and I'm upset",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.0038265716284513474,
+    "score_gap": 0.000765674514696002,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "How do I leave a review for a product I bought?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9997945427894592,
+    "score_gap": 0.0001696944236755371,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "I want to file a formal complaint about a staff member",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.20018315315246582,
+    "score_gap": 0.06742310523986816,
+    "llm_self_confidence": 0.7
+  },
+  {
+    "query": "Can I get featured as a reviewer on your homepage?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.000774770975112915,
+    "score_gap": 0.00024909141939133406,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "How do I sign up for your email list?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9721812605857849,
+    "score_gap": 0.001395106315612793,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Stop sending me marketing emails",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.0157100111246109,
+    "score_gap": 0.002989082597196102,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can I choose how often I get newsletter emails?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.017332112416625023,
+    "score_gap": 0.006127672269940376,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "I want to speak to an actual person, not a bot",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8963578343391418,
+    "score_gap": 0.09673488140106201,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "What's your phone number for support?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.843248724937439,
+    "score_gap": 0.09755021333694458,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Is customer support available on weekends?",
+    "truly_answerable": false,
+    "system_answered": true,
+    "retrieval_score": 0.9816719889640808,
+    "score_gap": 0.8204409331083298,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "My card got declined at checkout",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8958427309989929,
+    "score_gap": 0.0057506561279296875,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "What payment methods do you accept?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9991403818130493,
+    "score_gap": 0.0001996159553527832,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Can I split payment across two cards?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.015682091936469078,
+    "score_gap": 0.0019844798371195793,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Is there a fee if I cancel my order?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.41938847303390503,
+    "score_gap": 0.2333284467458725,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "Will I be charged for cancelling within an hour of ordering?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.15828126668930054,
+    "score_gap": 0.004459187388420105,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can I pay in Bitcoin or other cryptocurrency?",
+    "truly_answerable": false,
+    "system_answered": true,
+    "retrieval_score": 0.7599100470542908,
+    "score_gap": 0.12915825843811035,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Do you offer a student discount?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.002624681917950511,
+    "score_gap": 0.0018775775679387152,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "What's the CEO's email address?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0019421209581196308,
+    "score_gap": 2.099457196891308e-05,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can I get a refund on a gift card purchase after 90 days?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.6419613361358643,
+    "score_gap": 0.33578094840049744,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Is your warehouse in California hiring right now?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.00047354117850773036,
+    "score_gap": 0.0003568517277017236,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Do you support Apple Pay for recurring subscriptions specifically?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.009227016940712929,
+    "score_gap": 0.004153904039412737,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "What's the weather like at your headquarters?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0009522801847197115,
+    "score_gap": 0.00039402267429977655,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can I white-label your product for my own store?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0007277292315848172,
+    "score_gap": 0.00014522077981382608,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Do you have a referral program that pays cash?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0428805910050869,
+    "score_gap": 0.006915204226970673,
+    "llm_self_confidence": 0.6
+  },
+  {
+    "query": "What programming language is your backend written in?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0002441999677103013,
+    "score_gap": 0.00020593733643181622,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can I buy shares in your company?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0002472123596817255,
+    "score_gap": 2.185144694522023e-06,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Do you sponsor Visa applications for employees?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0002912261988967657,
+    "score_gap": 7.179021486081183e-05,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "What's your company's carbon footprint policy?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0005050760810263455,
+    "score_gap": 2.580811269581318e-05,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can you recommend a good recipe for dinner tonight?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 3.742627814062871e-05,
+    "score_gap": 3.7071004044264555e-09,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Who won the last election in my country?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 3.79012490157038e-05,
+    "score_gap": 4.8330548452213407e-08,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "How do I get started with a new account here?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.966690182685852,
+    "score_gap": 0.010381817817687988,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "I no longer want to use this service, remove my profile",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.5543112754821777,
+    "score_gap": 0.2890773415565491,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "I typed my old address by mistake, can you fix my profile?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.6381718516349792,
+    "score_gap": 0.1340559720993042,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "How do I go from a personal to a business profile?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.08411005139350891,
+    "score_gap": 0.0027797818183898926,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "I keep getting logged out and need to reset my password",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9489742517471313,
+    "score_gap": 0.07033747434616089,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "Signing up gives me an error about my email being taken",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9901609420776367,
+    "score_gap": 0.03305727243423462,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "I want to back out of an order I just placed",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.7064259648323059,
+    "score_gap": 0.25901520252227783,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "Can I modify the quantity on an order before it ships?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9245694875717163,
+    "score_gap": 0.1096002459526062,
+    "llm_self_confidence": 0.7
+  },
+  {
+    "query": "How do I buy something from your site step by step?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9848331809043884,
+    "score_gap": 0.004911839962005615,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Give me the current status of my shipment",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.961144745349884,
+    "score_gap": 0.05042308568954468,
+    "llm_self_confidence": 0.6
+  },
+  {
+    "query": "I need to change the delivery address for an order in transit",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9586085677146912,
+    "score_gap": 0.0070809125900268555,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "How do I save a second address for gifts?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.884423553943634,
+    "score_gap": 0.03397369384765625,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "I need the invoice PDF for my accountant",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.8515331745147705,
+    "score_gap": 0.06742727756500244,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Please resend my invoice, I lost the email",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.7752300500869751,
+    "score_gap": 0.2855854034423828,
+    "llm_self_confidence": 0.7
+  },
+  {
+    "query": "What is the return window for purchases?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.13363675773143768,
+    "score_gap": 0.01322823017835617,
+    "llm_self_confidence": 0.8
+  },
+  {
+    "query": "I want a refund for an item that never arrived",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8451598882675171,
+    "score_gap": 0.05952882766723633,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Checking on the status of my refund request",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9992645382881165,
+    "score_gap": 0.0014615058898925781,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "What are the available shipping tiers and their costs?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.049722179770469666,
+    "score_gap": 0.01560927927494049,
+    "llm_self_confidence": 0.6
+  },
+  {
+    "query": "Roughly how long does standard shipping take?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.992173433303833,
+    "score_gap": 0.006106674671173096,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "I want to complain about how a support call went",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.13503074645996094,
+    "score_gap": 0.0006164759397506714,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "Where do I write a review for my last purchase?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.44925472140312195,
+    "score_gap": 0.05507519841194153,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Please unsubscribe me from all marketing emails",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.932152509689331,
+    "score_gap": 0.001548469066619873,
+    "llm_self_confidence": 0.1
+  },
+  {
+    "query": "I'd like to join your mailing list for deals",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.00019519431225489825,
+    "score_gap": 7.597307558171451e-05,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can you connect me with a live support agent now?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9988710284233093,
+    "score_gap": 0.0001780986785888672,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "How can I reach your support team by phone or email?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9957731366157532,
+    "score_gap": 0.001851499080657959,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "My debit card payment isn't going through",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9637542963027954,
+    "score_gap": 0.3970986604690552,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "Do you take PayPal or only credit cards?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.7200607061386108,
+    "score_gap": 0.09299087524414062,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "How much would I be charged for cancelling now?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.311174213886261,
+    "score_gap": 0.23867803812026978,
+    "llm_self_confidence": 0.7
+  },
+  {
+    "query": "I'd like to close my account today",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.7987946271896362,
+    "score_gap": 0.004688739776611328,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "Update the phone number linked to my profile",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.5819138288497925,
+    "score_gap": 0.20330765843391418,
+    "llm_self_confidence": 0.95
+  },
+  {
+    "query": "I never received the verification email when signing up",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.11583651602268219,
+    "score_gap": 0.025937452912330627,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Cancel the order I placed five minutes ago",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.12087032198905945,
+    "score_gap": 0.015286125242710114,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Track where my package is right now",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.9585685729980469,
+    "score_gap": 0.006413161754608154,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "I want to write feedback about a recent delivery",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.1730508953332901,
+    "score_gap": 0.05588981509208679,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Take me off your promotional email list",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.03655548393726349,
+    "score_gap": 0.010973017662763596,
+    "llm_self_confidence": 0.1
+  },
+  {
+    "query": "What forms of payment do you accept online?",
+    "truly_answerable": true,
+    "system_answered": false,
+    "retrieval_score": 0.9948235750198364,
+    "score_gap": 0.0006043910980224609,
+    "llm_self_confidence": 1.0
+  },
+  {
+    "query": "Is there a cancellation charge on subscription plans?",
+    "truly_answerable": true,
+    "system_answered": true,
+    "retrieval_score": 0.8438879251480103,
+    "score_gap": 0.12189233303070068,
+    "llm_self_confidence": 0.9
+  },
+  {
+    "query": "Can you build a custom app just for my business?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0016411194810643792,
+    "score_gap": 0.001029504055622965,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Do you offer internships for college students?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 5.380473521654494e-05,
+    "score_gap": 3.771310730371624e-07,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "What's the exchange rate today between USD and EUR?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0028529709670692682,
+    "score_gap": 0.0011419951915740967,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Can I get a same-day refund in cash at a store?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.029628310352563858,
+    "score_gap": 0.014562385156750679,
+    "llm_self_confidence": 0.0
+  },
+  {
+    "query": "Do you have a mobile app for smartwatches?",
+    "truly_answerable": false,
+    "system_answered": false,
+    "retrieval_score": 0.0012058222200721502,
+    "score_gap": 0.0005409137811511755,
+    "llm_self_confidence": 0.0
+  }
+]
