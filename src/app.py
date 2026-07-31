@@ -7,6 +7,7 @@ Run with: streamlit run src/app.py
 """
 
 import streamlit as st
+from ingest import ensure_index_built
 from retrieve import HybridRetriever
 from pipeline import resolve_ticket
 
@@ -15,13 +16,15 @@ st.set_page_config(page_title="Support Ticket Resolver", layout="wide")
 
 @st.cache_resource
 def get_retriever():
+    ensure_index_built()
     return HybridRetriever()
 
 
 st.title("🎫 Customer Support Ticket Resolver")
 st.caption("RAG system with confidence-based abstention — auto-answers when sure, escalates when not.")
 
-retriever = get_retriever()
+with st.spinner("Setting up (first load may take a minute)..."):
+    retriever = get_retriever()
 
 query = st.text_input("Customer query", placeholder="e.g. How do I get a refund on a damaged item?")
 submit = st.button("Resolve Ticket", type="primary")

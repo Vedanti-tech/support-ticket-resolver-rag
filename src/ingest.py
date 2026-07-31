@@ -80,6 +80,23 @@ def build_bm25_index(chunks: list[dict]):
     print(f"Saved BM25 index to {bm25_path}.")
 
 
+def index_exists() -> bool:
+    bm25_path = os.path.join(config.DATA_DIR, "bm25_index.pkl")
+    qdrant_dir_exists = os.path.isdir(config.VECTOR_DB_PATH) and len(os.listdir(config.VECTOR_DB_PATH)) > 0
+    return os.path.exists(bm25_path) and qdrant_dir_exists
+
+
+def ensure_index_built():
+    """
+    Build the index only if it doesn't already exist. Used by app.py so a
+    fresh deployment (where data/qdrant_local and bm25_index.pkl aren't in
+    git) can self-provision on first load instead of crashing.
+    """
+    if index_exists():
+        return
+    main()
+
+
 def main():
     print("Loading KB...")
     df = load_kb(config.KB_CSV_PATH)
