@@ -4,10 +4,17 @@ Tune thresholds here after running eval/calibrate.py.
 """
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # --- Paths ---
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
-KB_CSV_PATH = os.path.join(DATA_DIR, "bitext_full.csv")
+# KB_CSV_FILE can be overridden via .env locally (e.g. KB_CSV_FILE=bitext_full.csv)
+# to use the full dataset without touching this file. Deployments (Streamlit
+# Cloud, etc.) that don't set this env var fall back to the small sample KB
+# that's actually committed to the repo.
+KB_CSV_PATH = os.path.join(DATA_DIR, os.environ.get("KB_CSV_FILE", "kb_sample.csv"))
 VECTOR_DB_PATH = os.path.join(DATA_DIR, "qdrant_local")
 EVAL_SET_PATH = os.path.join(os.path.dirname(__file__), "..", "eval", "eval_set.json")
 
@@ -26,14 +33,19 @@ BM25_WEIGHT = 0.4         # weight given to keyword search in fusion (0-1)
 DENSE_WEIGHT = 0.6        # weight given to vector search in fusion (0-1)
 
 # --- Confidence / abstention thresholds ---
-# These are STARTING values. Run eval/calibrate.py against eval_set.json
-# to pick values backed by a precision-recall curve rather than guessing.
-MIN_RERANK_SCORE = 0.3     # below this, the top result isn't trustworthy
-MIN_SCORE_GAP = 0.0         # top1-top2 rerank score gap; low gap = ambiguous retrieval
+# Calibrated against the full 26,872-row Bitext dataset using a 102-query
+# labeled eval set (eval/eval_set.json). See README "Results" section for
+# the false-answer-rate / escalation-rate tradeoff behind these numbers.
+# Re-run eval/calibrate.py + eval/resweep.py if you swap in a different KB.
+MIN_RERANK_SCORE = 0.3           # below this, the top result isn't trustworthy
+MIN_SCORE_GAP = 0.0              # disabled: on a large KB with many near-duplicate
+                                  # paraphrases per intent, a small gap usually means
+                                  # "several equally good matches", not ambiguity
 MIN_SELF_REPORTED_CONFIDENCE = 0.6  # LLM's own confidence self-rating (0-1)
 
 # --- LLM settings ---
-# Gemini free tier: get a key at https://aistudio.google.com/apikey
+# Flash-Lite has the most generous free-tier limits (higher RPM and RPD
+# than plain Flash), so it's the safer choice while on the free tier.
 LLM_MODEL = "gemini-flash-lite-latest"
 LLM_MAX_TOKENS = 1000
 
