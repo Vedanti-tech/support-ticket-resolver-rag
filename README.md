@@ -1,5 +1,9 @@
 # Customer Support Ticket Resolver — RAG with Confidence-Based Abstention
 
+**🚀 [Live Demo](https://support-ticket-resolver-rag-4vz9cbrlj7gosuwzxrn3tb.streamlit.app/)** — try it directly, no setup needed.
+
+A RAG system that auto-answers customer support tickets when it's confident,
+
 A RAG system that auto-answers customer support tickets when it's confident,
 and escalates to a human agent (with context pre-loaded) when it's not.
 The core engineering challenge: **calibrating when to say "I don't know"**
