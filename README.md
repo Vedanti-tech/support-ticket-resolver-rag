@@ -2,6 +2,13 @@
 
 **🚀 [Live Demo](https://support-ticket-resolver-rag-4vz9cbrlj7gosuwzxrn3tb.streamlit.app/)** — try it directly, no setup needed.
 
+> **Note:** the live demo runs against the small 26-row sample KB (`data/kb_sample.csv`)
+> for fast, lightweight deployment. The calibration results and thresholds
+> documented below were tuned against the full 26,872-row dataset — so the
+> demo may escalate some queries the full-dataset numbers wouldn't (it simply
+> doesn't have as much knowledge to draw on). See "Setup" below to run it
+> locally against the full dataset.
+
 A RAG system that auto-answers customer support tickets when it's confident,
 
 A RAG system that auto-answers customer support tickets when it's confident,
